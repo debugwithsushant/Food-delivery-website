@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#logo{
+    margin: 10px 2px;
+}
+
+#logo img{
+    height: 54px;
+    margin: 0px 35px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{ 
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{ 
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 180px 200px;
+    height: 203px;
+    align-items: center;
+    justify-content: normal;
+}
+
+#home::before{
+    content: "";
+    /* background: url(bg.jpg) no-repeat center center/cover; */
+    background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#services{
+    margin: 0px 40px;
+    display: flex;
+}
+
+/* #services-container{
+    padding: 0px 0px;
+} */
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 0px 25px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+}
+
+#services .box img{
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+
+#client-section{
+    height: 240px;
+}
+
+#client-section::before{
+    content: "";
+    background: url(https://cdn.pixabay.com/photo/2016/11/06/23/31/breakfast-1804457_640.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 25px 75px;
+}
+#clients img{
+    height: 70px;
+}
+
+#contact{
+    position: relative;
+    padding: 30px 0px;
+}
+
+#contact::before{
+    content: "";
+    background: url(https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523_960_720.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#contact-box label{
+    font-size: 1.5rem;
+}
+
+#contact-box form{
+    width: 30%;
+}
+
+#contact-box .form-group{
+    padding: 10px 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 15px;
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 7px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn1{
+    padding: 7px 20px;
+    border: 2px solid white;
+    color: black;
+    margin: 17px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.foot{
+    padding: 35px 147px;
+}
