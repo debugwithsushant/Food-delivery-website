@@ -22,8 +22,7 @@ MyOnlineMeal is a modern, responsive food delivery website designed to provide u
 - Optional: JavaScript for future interactivity  
 
 ### Live Demo
-You can host this project on GitHub Pages to see it live.
-
+[View Live Website](https://debugwithsushant.github.io/Food-delivery-website/)
 ---
 
 This project is ideal for beginners and developers learning **HTML, CSS, and responsive web design**.
